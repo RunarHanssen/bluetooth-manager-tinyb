@@ -112,6 +112,7 @@ sudo systemctl restart bluetooth
 ### Another method that does not require building bluez from sources
 ```sh
 sudo  apt-get install debhelper dh-autoreconf flex bison libdbus-glib-1-dev libglib2.0-dev  libcap-ng-dev libudev-dev libreadline-dev libical-dev check dh-systemd libebook1.2-dev
+sudo apt-get install devscripts
 
 wget https://launchpad.net/ubuntu/+archive/primary/+files/bluez_5.43.orig.tar.xz
 wget https://launchpad.net/ubuntu/+archive/primary/+files/bluez_5.43-0ubuntu1.debian.tar.xz
